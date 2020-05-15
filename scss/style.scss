@@ -1,0 +1,43 @@
+@import 'config';
+@import 'utilities';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  background-color: $grey-color;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  margin: 9px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+
+  a {
+    color: $grey-color;
+    margin-left: 16px;
+    margin-bottom: -31px;
+  }
+}
+
+.landing {
+  display: grid;
+}

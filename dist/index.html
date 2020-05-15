@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/d53ef4d3a9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Movies Database</title>
+  </head>
+  <body>
+    <nav class="navbar bg-primary">
+      <i class="fas fa-film fa-5x"></i>
+      <a href="index.html">
+        <h1><b>Movies Database</b></h1></a
+      >
+    </nav>
+
+    <section class="landing bg-grey">
+      <div class="menu">
+        <ul>
+          <li><a href="popular.html">Popular</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="top_rated.html">Top Rated</a></li>
+        </ul>
+      </div>
+
+      <div class="search">
+        <h1>Search for your favourite movies</h1>
+
+        <form class="form" id="form">
+          <i class="fas fa-search fa-2x"></i>
+          <input
+            class="formInput"
+            type="text"
+            name="text"
+            placeholder="Search Movies..."
+          />
+        </form>
+
+        <div class="buttons">
+          <button type="submit" class="btn" form="form">Search</button>
+          <button class="btn">Clear Search</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+// Backgrounds
+.bg {
+  &-primary {
+    @include set-background($primary-color);
+  }
+  &-grey {
+    @include set-background($grey-color);
+  }
+}
