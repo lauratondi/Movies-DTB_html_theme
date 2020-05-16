@@ -3,14 +3,18 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  // margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-color: $grey-color;
   font-size: 22px;
+}
+
+h1 {
+  font-weight: bold;
 }
 
 a {
@@ -26,15 +30,23 @@ img {
 }
 
 .navbar {
-  margin: 9px;
+  // margin: 9px;
   padding: 30px;
   display: flex;
   align-items: center;
+
+  h1 {
+    font-size: 38px;
+  }
 
   a {
     color: $grey-color;
     margin-left: 16px;
     margin-bottom: -31px;
+
+    &:hover {
+      color: $black-color;
+    }
   }
 }
 
@@ -43,6 +55,37 @@ img {
   padding: 10px;
 }
 
+.menu {
+  li {
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+
+  a {
+    color: $primary-color;
+
+    &:hover {
+      color: $light-color;
+    }
+  }
+}
+
 .search {
   text-align: center;
+}
+
+.formInput {
+  background-color: $grey-color;
+  width: 50%;
+  height: 60px;
+  border: 1px solid black;
+  font-size: 20px;
+  color: grey;
+
+  margin-left: 11px;
+  padding: 20px;
+}
+
+internal-autofill-selected {
+  background-color: #333333;
 }
