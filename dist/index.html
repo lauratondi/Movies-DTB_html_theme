@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/style.min.css" />
     <title>Movies Database</title>
   </head>
@@ -26,12 +27,20 @@
     <section class="landing bg-grey">
       <div class="menu">
         <ul>
-          <li><a href="popular.html">Popular</a></li>
-          <li><a href="discover.html">Discover</a></li>
-          <li><a href="top_rated.html">Top Rated</a></li>
+          <li>
+            <i class="fas fa-fire-alt fa-xs"></i
+            ><a href="popular.html"> Popular</a>
+          </li>
+          <li>
+            <i class="fas fa-gift fa-xs"></i>
+            <a href="discover.html">Discover</a>
+          </li>
+          <li>
+            <i class="fas fa-star fa-xs"></i
+            ><a href="top_rated.html"> Top Rated</a>
+          </li>
         </ul>
       </div>
-
       <div class="search">
         <h1>Search for your favourite movies</h1>
 
@@ -46,8 +55,10 @@
         </form>
 
         <div class="buttons">
-          <button type="submit" class="btn" form="form">Search</button>
-          <button class="btn">Clear Search</button>
+          <button type="submit" class="btn btn-primary" form="form">
+            Search
+          </button>
+          <button class="btn btn-primary">Clear</button>
         </div>
       </div>
     </section>
