@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/d53ef4d3a9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Movies Database</title>
+  </head>
+  <body>
+    <nav class="navbar bg-primary">
+      <i class="fas fa-film fa-5x"></i>
+      <a href="index.html">
+        <h1><b>Movies Database</b></h1></a
+      >
+    </nav>
+
+    <section class="landing bg-grey">
+      <div class="menu">
+        <ul>
+          <li>
+            <i class="fas fa-fire-alt fa-xs"></i
+            ><a href="popular.html"> Popular</a>
+          </li>
+          <li>
+            <i class="fas fa-gift fa-xs"></i>
+            <a href="discover.html">Discover</a>
+          </li>
+          <li>
+            <i class="fas fa-star fa-xs"></i
+            ><a href="top_rated.html"> Top Rated</a>
+          </li>
+        </ul>
+      </div>
+      <div class="search">
+        <h1>Search for your favourite movies</h1>
+
+        <form class="form" id="form">
+          <i class="fas fa-search fa-2x"></i>
+          <input
+            class="formInput"
+            type="text"
+            name="text"
+            placeholder="Search Movies..."
+          />
+        </form>
+
+        <div class="buttons">
+          <button type="submit" class="btn btn-primary" form="form">
+            Search
+          </button>
+          <button class="btn btn-primary">Clear</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-movie">
+      <div class="poster">
+        <img src="img/poster.jpg" />
+      </div>
+      <div class="info bg-grey">
+        <h2>Title</h2>
+        <ul>
+          <li>Genres: Drama</li>
+          <li>Runtime: 180</li>
+          <li>Release: 10/08/99</li>
+          <li>Language: EN</li>
+          <li>Country: USA</li>
+          <li>imdb Rating: 7.8</li>
+          <li>Director: Ermanno Gerolamo</li>
+          <li>Writer: Brother & com</li>
+          <li>
+            Actors: Diego Armando, Sabrina Ferilli, Meg Rian, Sean Connery
+          </li>
+          <li>Awards: Orsdo d'Oro</li>
+        </ul>
+      </div>
+      <div class="plot bg-grey">
+        <h3>Overview:</h3>
+        <p>
+          The general public is concerned over having Superman on their planet
+          and letting the "Dark Knight" - Batman - pursue the streets of Gotham.
+          While this is happening, a power-phobic Batman tries to attack
+          Superman.,Meanwhile Superman tries to settle on a decision, and Lex
+          Luthor, the criminal mastermind and millionaire, tries to use his own
+          advantages to fight the "Man of Steel".Go Back to Search
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

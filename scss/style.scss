@@ -58,6 +58,8 @@ img {
 }
 
 .menu {
+  text-align: start;
+
   li {
     margin-bottom: 15px;
     margin-left: 15px;
@@ -102,7 +104,7 @@ internal-autofill-selected {
   justify-content: center;
 }
 
-// CONTAINERS
+// MOVIES PAGE
 .container-movies {
   display: flex;
   flex-wrap: wrap;
@@ -145,4 +147,32 @@ internal-autofill-selected {
     right: -13px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
   }
+}
+
+// SINGLE MOVIE PAGE
+.container-movie {
+  display: grid;
+  justify-content: center;
+  margin: 7rem
+  grid-gap: 10px;
+}
+
+.poster {
+  grid-column: 1;
+  grid-row: 1;
+  grid-gap: 41px;
+}
+
+.info {
+  grid-column: 2;
+  grid-row: 1;
+
+  li {
+    line-height: 2rem;
+  }
+}
+
+.plot {
+  grid-column: 1 / span 2;
+  grid-row: 2;
 }
