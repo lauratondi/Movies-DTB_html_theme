@@ -188,3 +188,19 @@ internal-autofill-selected {
   grid-column: 1 / span 2;
   grid-row: 2;
 }
+
+// FOOTER
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  img {
+    width: 4%;
+    margin-right: 9px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
